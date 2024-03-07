@@ -1,5 +1,13 @@
+import Results from "./components/results";
+import Search from "./components/search";
+
 function App() {
-  return <></>;
+  return (
+    <>
+      <Search />
+      <Results />
+    </>
+  );
 }
 
 export default App;
